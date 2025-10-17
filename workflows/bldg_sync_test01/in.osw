@@ -39,7 +39,7 @@
         "ns_to_ew_ratio": 2.8,
         "wwr": 0.35,
         "party_wall_fraction": 0.0,
-        "bar_division_method": "Single Space Type - Core and Perimeter"
+        "bar_division_method": "Multiple Space Types - Individual Stories Sliced"
       },
       "measure_dir_name": "create_bar_from_building_type_ratios"
     },
