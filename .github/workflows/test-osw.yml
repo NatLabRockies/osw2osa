@@ -5,7 +5,7 @@ jobs:
   test-osw:
     runs-on: ubuntu-latest
     container: # Define the Docker container for the job. All subsequent steps run inside it.
-      image: nrel/openstudio:dev-3.11.0
+      image: nrel/openstudio:3.11.0
       options: -u root -e "LANG=en_US.UTF-8" # These options are passed to the 'docker run' command internally
 
     steps:
