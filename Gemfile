@@ -19,10 +19,10 @@ gem 'git'
 #gem 'urbanopt-core', github: 'urbanopt/urbanopt-core-gem', branch: 'os38'
 
 # for development testing can use specific branch of measure gems instead of release
-gem 'openstudio-model-articulation', github: 'NREL/openstudio-model-articulation-gem', branch: 'os_0311_prep'
-gem 'openstudio-common-measures', github: 'NREL/openstudio-common-measures-gem', branch: 'os_0311_prep'
-gem 'openstudio-ee', github: 'NREL/openstudio-ee-gem', branch: 'os_0311_prep'
-gem 'openstudio-calibration', github: 'NREL/openstudio-calibration-gem', branch: 'os_0311_prep'
+gem 'openstudio-model-articulation', github: 'NREL/openstudio-model-articulation-gem', branch: 'develop'
+gem 'openstudio-common-measures', github: 'NREL/openstudio-common-measures-gem', branch: 'os_0311_extra_fixes'
+gem 'openstudio-ee', github: 'NREL/openstudio-ee-gem', branch: 'develop'
+gem 'openstudio-calibration', github: 'NREL/openstudio-calibration-gem', branch: 'develop'
 
 # todo - the urban geometry measure is failing, maybe need different branch or gem release to use with OpenStudio 3.0.1
 #gem 'urbanopt-geojson', github: 'URBANopt/urbanopt-geojson-gem', branch: 'develop'
