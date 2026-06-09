@@ -20,7 +20,7 @@ gem 'git'
 
 # for development testing can use specific branch of measure gems instead of release
 gem 'openstudio-model-articulation', github: 'NREL/openstudio-model-articulation-gem', branch: 'develop'
-gem 'openstudio-common-measures', github: 'NREL/openstudio-common-measures-gem', branch: 'os_0311_extra_fixes'
+gem 'openstudio-common-measures', github: 'NREL/openstudio-common-measures-gem', branch: 'develop'
 gem 'openstudio-ee', github: 'NREL/openstudio-ee-gem', branch: 'develop'
 gem 'openstudio-calibration', github: 'NREL/openstudio-calibration-gem', branch: 'develop'
 
