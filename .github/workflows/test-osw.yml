@@ -48,7 +48,7 @@ jobs:
             echo_name = File.dirname(ARGV[0]).split("/").last
             puts "workflow=#{echo_name} status=#{status}"
           ' "$f"
-        end
+        done
 
         echo
         echo "Failing workflows:"
@@ -61,7 +61,7 @@ jobs:
               puts "FAILED: #{workflow} (#{ARGV[0]}) => #{status}"
             end
           ' "$f"
-        end
+        done
 
     - name: upload workflow outputs
       if: always()
