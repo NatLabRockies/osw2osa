@@ -4,22 +4,74 @@ on: push
 jobs:
   test-osw:
     runs-on: ubuntu-latest
-    container:  nrel/openstudio:3.10.0
+    container:
+      image: nrel/openstudio:3.11.0
+      options: -u root -e "LANG=en_US.UTF-8"
+
     steps:
     - name: check out repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
+
     - name: environment info
-      shell: bash 
+      shell: bash
       run: |
-          openstudio --version
-          ruby -v
-          bundle -v
+        openstudio --version
+        ruby -v
+        bundle -v
+
     - name: install dependencies
-      shell: bash 
+      shell: bash
       run: |
-          bundle install
+        bundle install
+
     - name: run workflows
-      shell: bash 
+      shell: bash
       run: |
-          bundle exec rake run_all_osws
-          # create and and rake tasks that adds more validation of the runs
+        bundle exec rake run_all_osws
+        # create and and rake tasks that adds more validation of the runs
+
+    - name: summarize workflow results
+      if: always()
+      shell: bash
+      run: |
+        echo "Scanning run/workflows for out.osw files..."
+
+        found=0
+        failed=0
+
+        find run/workflows -name out.osw -print | sort | while read -r f; do
+          found=1
+          echo "==== $f ===="
+          ruby -rjson -e '
+            j = JSON.parse(File.read(ARGV[0]))
+            status = j["completed_status"] || "Fail"
+            echo_name = File.dirname(ARGV[0]).split("/").last
+            puts "workflow=#{echo_name} status=#{status}"
+          ' "$f"
+        done
+
+        echo
+        echo "Failing workflows:"
+        find run/workflows -name out.osw -print | sort | while read -r f; do
+          ruby -rjson -e '
+            j = JSON.parse(File.read(ARGV[0]))
+            status = j["completed_status"] || "Fail"
+            if status != "Success"
+              workflow = File.dirname(ARGV[0]).split("/").last
+              puts "FAILED: #{workflow} (#{ARGV[0]}) => #{status}"
+            end
+          ' "$f"
+        done
+
+    - name: upload workflow outputs
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: osw-results
+        path: |
+          run/workflows/**/out.osw
+          run/workflows/**/run.log
+          run/workflows/**/stdout*
+          run/workflows/**/stderr*
+          run/workflows/**/in.osw
+        if-no-files-found: warn

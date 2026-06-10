@@ -66750,19 +66750,6 @@ OS:Generator:Photovoltaic,
   {1a83ba9c-63d9-48ed-a74c-f1359dd842f7}, !- Surface Name
   {0ae5a403-348a-4ca4-a08c-49f895e272d0}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {2da2af28-a820-4501-8526-4eda3817ef27}, !- Handle
-  Electric Load Center Distribution 2,    !- Name
-  {56c9323b-a867-4dd2-bf9d-25e6406ce934}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {56c9323b-a867-4dd2-bf9d-25e6406ce934}, !- Handle
-  {e7637fad-2823-41f8-91db-148b76c5a77d}; !- Name
 
 OS:ShadingSurfaceGroup,
   {f669cff2-8f19-49c8-8025-6bc40832d2f7}, !- Handle
@@ -66800,19 +66787,6 @@ OS:Generator:Photovoltaic,
   {da9031ea-d6d1-4d01-896e-ccf12d33f3c0}, !- Surface Name
   {b671290a-b957-4cd3-beb0-f331baaf2212}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {57c2b35e-1b83-4627-95a8-55e3ae8fe1af}, !- Handle
-  Electric Load Center Distribution 3,    !- Name
-  {c3e79164-53ba-42ff-ba55-fa6f623dde89}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {c3e79164-53ba-42ff-ba55-fa6f623dde89}, !- Handle
-  {f1b5ea28-96c1-48f2-8889-9e6237626fd5}; !- Name
 
 OS:ShadingSurfaceGroup,
   {2c8ea9de-6e2d-4ebd-b978-63f35bf7a4dc}, !- Handle
@@ -66850,19 +66824,6 @@ OS:Generator:Photovoltaic,
   {62a5d651-0691-44ad-8e62-2c4f6714d1ef}, !- Surface Name
   {39b4202b-b061-4032-be7f-f7815f93452c}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {d4adf340-c2b6-4b19-9a9d-0bb5b1edb6ed}, !- Handle
-  Electric Load Center Distribution 4,    !- Name
-  {18ad5dc1-1565-4d6e-b155-c69dfd64df8f}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {18ad5dc1-1565-4d6e-b155-c69dfd64df8f}, !- Handle
-  {d444f705-8ff0-4ef9-92ca-6ef17ed1d3fb}; !- Name
 
 OS:ShadingSurfaceGroup,
   {7c05e0a3-ed1b-4572-8c93-3b01ee4ce919}, !- Handle
@@ -66900,19 +66861,6 @@ OS:Generator:Photovoltaic,
   {71a8a27e-1c3a-456c-8084-f2eb1a72ab13}, !- Surface Name
   {9611c9d8-6ecf-46d2-9c4c-6fd54e5e0490}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {6b928948-5011-4db6-9c1e-9d64ae0db488}, !- Handle
-  Electric Load Center Distribution 5,    !- Name
-  {430fa6a9-e17e-417c-a4dd-0883adac452d}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {430fa6a9-e17e-417c-a4dd-0883adac452d}, !- Handle
-  {74bcdc47-85ae-40b0-bc43-40c2d3d5721f}; !- Name
 
 OS:ShadingSurfaceGroup,
   {dc1ea2e2-a085-4d17-a65d-d726aed1253b}, !- Handle
@@ -66950,20 +66898,6 @@ OS:Generator:Photovoltaic,
   {1e66dfb9-57ba-4c28-8369-eebd3eecef25}, !- Surface Name
   {c0b5a454-821f-4ef4-bb7c-c0445c6cff1f}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {85c71346-c6f4-480e-acc4-a77964bcaff5}, !- Handle
-  Electric Load Center Distribution 6,    !- Name
-  {3ff11b07-28ad-4250-b988-f79b027a1709}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {3ff11b07-28ad-4250-b988-f79b027a1709}, !- Handle
-  {96988b0e-52a3-4c1b-ac86-58f57255dc56}; !- Name
-
 OS:ShadingSurfaceGroup,
   {4cc3f5a8-7e54-4cfb-a412-0d594c153d7a}, !- Handle
   Shading Surface Group 6,                !- Name
@@ -67000,19 +66934,6 @@ OS:Generator:Photovoltaic,
   {0722de2f-eaaa-41e7-bc09-e2aa8f4204f2}, !- Surface Name
   {78e07367-24a1-43e7-8089-316be626081a}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {02359b08-6289-486c-ba27-6af750d49b65}, !- Handle
-  Electric Load Center Distribution 7,    !- Name
-  {39523be5-3a1b-46d7-87c0-fd2ac9e08375}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {39523be5-3a1b-46d7-87c0-fd2ac9e08375}, !- Handle
-  {a412b0fe-a090-4219-9467-743c555d4f78}; !- Name
 
 OS:ShadingSurfaceGroup,
   {aa006f32-3ae4-4d83-bb90-12055940a711}, !- Handle
@@ -67050,19 +66971,6 @@ OS:Generator:Photovoltaic,
   {d82d96f8-d895-41f5-bba9-b01fe69f14c6}, !- Surface Name
   {ada988b2-6940-41e6-842a-ca9025091f24}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {5032a537-ac4d-40d3-9c6c-ae17d9672a83}, !- Handle
-  Electric Load Center Distribution 8,    !- Name
-  {33db0599-21cd-48ee-97f0-9ea0529df9e0}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {33db0599-21cd-48ee-97f0-9ea0529df9e0}, !- Handle
-  {cf1e08ff-7c9e-474e-a978-6bd8526084b1}; !- Name
 
 OS:ShadingSurfaceGroup,
   {61d827c6-c20b-4ee4-a2b0-c354179063be}, !- Handle
@@ -67100,19 +67008,6 @@ OS:Generator:Photovoltaic,
   {9bd8fe9b-8294-493b-b0de-a6d8740fe360}, !- Surface Name
   {28a1c96e-d105-4043-a89c-a16cbf4a972f}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {51255b02-d9d2-47c3-9349-2d3f7356f1ac}, !- Handle
-  Electric Load Center Distribution 9,    !- Name
-  {42eb1042-12a7-4b7d-8b25-884cb5e18f3a}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {42eb1042-12a7-4b7d-8b25-884cb5e18f3a}, !- Handle
-  {abf5df3d-b5f9-4f84-b01e-379ee8d5a128}; !- Name
 
 OS:ShadingSurfaceGroup,
   {0f65d6b3-399a-4cc3-8367-224077620375}, !- Handle
@@ -67150,19 +67045,6 @@ OS:Generator:Photovoltaic,
   {3782bb04-6847-49d1-aca8-5dcbcb5d8f17}, !- Surface Name
   {b3c2b294-a602-41cc-a823-11da2b7e10d9}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {c67e10ee-8ed6-4c37-82f3-16d3ca5b6eed}, !- Handle
-  Electric Load Center Distribution 10,   !- Name
-  {e0fbeffa-675c-47b3-aca2-8dbc3c41e111}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {e0fbeffa-675c-47b3-aca2-8dbc3c41e111}, !- Handle
-  {86b9b625-4408-4460-9f04-267653a55c34}; !- Name
 
 OS:ShadingSurfaceGroup,
   {4da29e57-a283-4de0-b93a-e3fe19b31e81}, !- Handle
@@ -67200,20 +67082,6 @@ OS:Generator:Photovoltaic,
   {9a71ef26-6b6d-4c91-ae89-0cabec55d490}, !- Surface Name
   {8d49a78c-09c9-4dc7-9b10-b8954f5e877e}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {a994bde0-c6f6-4728-90fe-605979df52d8}, !- Handle
-  Electric Load Center Distribution 11,   !- Name
-  {e0e2641f-b613-4c0c-860f-fdff5619db6e}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {e0e2641f-b613-4c0c-860f-fdff5619db6e}, !- Handle
-  {7b9fda83-5859-4132-a587-e32dbfce1212}; !- Name
-
 OS:ShadingSurfaceGroup,
   {52f4698d-d95e-405f-9ce1-153c205af02d}, !- Handle
   Shading Surface Group 11,               !- Name
@@ -67249,20 +67117,6 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 11,              !- Name
   {1dd166a1-aee4-4555-82d7-25b6f3e77045}, !- Surface Name
   {55c6b452-566e-435d-8c89-bc6c84f1d7c4}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {225f0bcf-83dc-42f8-b479-14c28f54cb12}, !- Handle
-  Electric Load Center Distribution 12,   !- Name
-  {6e5ba442-1109-43b5-8548-7c024c46ddf1}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {6e5ba442-1109-43b5-8548-7c024c46ddf1}, !- Handle
-  {1dd12c68-e45b-4a3e-ac86-aa32a7adae6a}; !- Name
 
 OS:ShadingSurfaceGroup,
   {9de157cb-85ae-4bae-ab6f-1d8b5257fb98}, !- Handle
@@ -67300,20 +67154,6 @@ OS:Generator:Photovoltaic,
   {7fa35bfa-6a73-4c71-845f-0fb7f09a0768}, !- Surface Name
   {8a7bfd1e-ac64-4194-a903-b113352f0d00}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {6953aafd-5213-454d-9b31-0ae1559cde70}, !- Handle
-  Electric Load Center Distribution 13,   !- Name
-  {99d6352c-57bb-474f-8f1d-3e9c328b8703}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {99d6352c-57bb-474f-8f1d-3e9c328b8703}, !- Handle
-  {e3a1c44f-c12d-40df-8eb1-2aaffb67b61a}; !- Name
-
 OS:ShadingSurfaceGroup,
   {d155fa1c-efc0-446e-9a93-b05834020de2}, !- Handle
   Shading Surface Group 13,               !- Name
@@ -67349,20 +67189,6 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 13,              !- Name
   {0208c56b-bcad-44c4-88bc-f238f1240c6d}, !- Surface Name
   {640a6f5c-7c55-4098-b384-2f1ea63c8c26}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {b3e6bfa1-8d5a-458d-8b82-2f2f400452ef}, !- Handle
-  Electric Load Center Distribution 14,   !- Name
-  {831f0c1f-a12b-460a-b4b1-4690c21d1093}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {831f0c1f-a12b-460a-b4b1-4690c21d1093}, !- Handle
-  {bdfda1c1-aef7-47b1-b8da-847867c35610}; !- Name
 
 OS:ShadingSurfaceGroup,
   {c542d8c8-2d2c-405a-9ec2-ee64a2db32a4}, !- Handle
@@ -67400,20 +67226,6 @@ OS:Generator:Photovoltaic,
   {09b94137-3dd6-420c-b085-3883ef23912c}, !- Surface Name
   {1f9dd69b-d371-4757-8db5-e6319aaca7e7}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {09755052-f26b-4481-b567-42b0804451bd}, !- Handle
-  Electric Load Center Distribution 15,   !- Name
-  {15634609-4426-499e-822b-b15da609f804}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {15634609-4426-499e-822b-b15da609f804}, !- Handle
-  {833c978d-a73d-462b-b6cb-25fe32b9f9c2}; !- Name
-
 OS:ShadingSurfaceGroup,
   {583e863a-c9fa-48de-8928-bbdb1e46a4fc}, !- Handle
   Shading Surface Group 15,               !- Name
@@ -67449,20 +67261,6 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 15,              !- Name
   {a04ed01b-725c-481c-9337-dd52ff073c12}, !- Surface Name
   {0ecd122d-f8fc-4ba5-9a2f-5a33f200e4c8}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {3e9fa5da-4d61-4aff-b834-64114143ae23}, !- Handle
-  Electric Load Center Distribution 16,   !- Name
-  {33874ef9-fd55-4ac4-9e75-38b44917f47a}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {33874ef9-fd55-4ac4-9e75-38b44917f47a}, !- Handle
-  {83197488-6c57-4112-9582-3e83733ef9e2}; !- Name
 
 OS:ShadingSurfaceGroup,
   {c0d72393-abff-4e26-84ab-ac09641fe8eb}, !- Handle
@@ -67500,20 +67298,6 @@ OS:Generator:Photovoltaic,
   {f2d425df-aa76-4bdd-b488-388794ee920b}, !- Surface Name
   {6b4d420c-a3a6-4689-8ea8-647bc21c5608}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {4fd1715e-c08e-4558-8b42-691ab7fccff1}, !- Handle
-  Electric Load Center Distribution 17,   !- Name
-  {37f0b0a2-54b4-4013-9f37-967cd86339d6}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {37f0b0a2-54b4-4013-9f37-967cd86339d6}, !- Handle
-  {ed44f0f3-6d2b-4856-9811-47e5f613efb1}; !- Name
-
 OS:ShadingSurfaceGroup,
   {912d51f5-09a5-40e8-9e28-9e1de8b554b0}, !- Handle
   Shading Surface Group 17,               !- Name
@@ -67549,20 +67333,6 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 17,              !- Name
   {3430d909-c36f-4243-91ae-7a69cef69438}, !- Surface Name
   {93b1c768-d5ec-4ab2-936d-6ce098ae990b}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {a9f58ff7-3807-4301-9aad-cd9941a9840f}, !- Handle
-  Electric Load Center Distribution 18,   !- Name
-  {36fe509f-037c-4764-ab2a-0361b783daf8}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {36fe509f-037c-4764-ab2a-0361b783daf8}, !- Handle
-  {fa4f5d24-b5aa-4e0d-b6f8-31e034f6277f}; !- Name
 
 OS:ShadingSurfaceGroup,
   {4c504001-d285-4cae-bf07-ff21eca2e14b}, !- Handle
@@ -67600,20 +67370,6 @@ OS:Generator:Photovoltaic,
   {25788356-9ea7-4d7b-b0dc-d5d720fc0ba1}, !- Surface Name
   {8f2d1fe2-4efa-4407-be07-bb29ccc5b46d}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {788bf661-1d3e-48c7-85d5-55ae0240c6e0}, !- Handle
-  Electric Load Center Distribution 19,   !- Name
-  {6129737b-37d1-4ccf-baaf-8cf485756dff}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {6129737b-37d1-4ccf-baaf-8cf485756dff}, !- Handle
-  {9f0bff32-06ab-466e-af5f-48bd55d1e9bb}; !- Name
-
 OS:ShadingSurfaceGroup,
   {763f01d1-6645-42e0-aaea-4b4159372b96}, !- Handle
   Shading Surface Group 19,               !- Name
@@ -67649,20 +67405,6 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 19,              !- Name
   {303c5a69-c44f-423a-8d8c-0a5ddb70a5cc}, !- Surface Name
   {1ea42170-6c0f-47e6-93f2-41c0f5bed7e3}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {eabf4f7a-6c24-4ffe-b358-8b01a3d0e28b}, !- Handle
-  Electric Load Center Distribution 20,   !- Name
-  {6bf1f2ef-e9c9-4da4-b5cd-12fb21a97b11}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {6bf1f2ef-e9c9-4da4-b5cd-12fb21a97b11}, !- Handle
-  {f784fe43-d68f-44f5-8771-229cfcc62fb8}; !- Name
 
 OS:ShadingSurfaceGroup,
   {1a9937b0-ae10-4a45-9b68-b2f90528748e}, !- Handle
@@ -67700,20 +67442,6 @@ OS:Generator:Photovoltaic,
   {1d88f6b1-fe51-4d0a-a3cc-82b9bb069379}, !- Surface Name
   {c6350deb-bae0-45fd-b08b-2608e84eb1d6}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {c151cc01-2525-45c8-b078-359740f15e9f}, !- Handle
-  Electric Load Center Distribution 21,   !- Name
-  {f4eb2a8d-c4ac-4c28-a6e0-00fc10903c15}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {f4eb2a8d-c4ac-4c28-a6e0-00fc10903c15}, !- Handle
-  {5081607f-650c-4d70-ad01-611acb9f53d7}; !- Name
-
 OS:ShadingSurfaceGroup,
   {3260b3c7-4541-4ab0-a33d-935ff45c98f1}, !- Handle
   Shading Surface Group 21,               !- Name
@@ -67749,20 +67477,6 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 21,              !- Name
   {7610cf27-24c6-49dc-b519-a2f39ba39eae}, !- Surface Name
   {998f2b81-e61b-4352-b8cc-a6e734ef497c}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {0ad7aa6d-e877-4c5c-a3e9-8be36309eac4}, !- Handle
-  Electric Load Center Distribution 22,   !- Name
-  {bf354263-95c7-44da-a2ad-b07a91f6ed8a}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {bf354263-95c7-44da-a2ad-b07a91f6ed8a}, !- Handle
-  {855f8489-99d7-4a1e-92cc-878d9f19056d}; !- Name
 
 OS:ShadingSurfaceGroup,
   {202b34ec-c410-4191-b360-46722b24a641}, !- Handle
@@ -67800,20 +67514,6 @@ OS:Generator:Photovoltaic,
   {a8e5b1e5-0bca-4714-9e1f-49e07603697b}, !- Surface Name
   {a530233e-5740-4075-8d52-97933c3643dc}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {eb3afbf5-725e-46db-8a70-911b463a29cd}, !- Handle
-  Electric Load Center Distribution 23,   !- Name
-  {b224b00a-6ef2-47d3-a3c1-5c34dc013db2}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {b224b00a-6ef2-47d3-a3c1-5c34dc013db2}, !- Handle
-  {f80ede29-3ffa-4d64-aad4-c2792ffea011}; !- Name
-
 OS:ShadingSurfaceGroup,
   {924a7c4d-cf65-4242-8052-493ff6d143b1}, !- Handle
   Shading Surface Group 23,               !- Name
@@ -67849,20 +67549,6 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 23,              !- Name
   {4584712e-083e-4127-9c9f-e38e1aacf44f}, !- Surface Name
   {a9c7a68f-2387-4713-a658-71d470219870}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {c26e3a6c-7a42-4320-ad21-7b45b62acc07}, !- Handle
-  Electric Load Center Distribution 24,   !- Name
-  {0af2112a-a711-4708-b222-53c1b829ae0d}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {0af2112a-a711-4708-b222-53c1b829ae0d}, !- Handle
-  {11d38937-fd77-40ed-9468-0ed6bb1f892f}; !- Name
 
 OS:ShadingSurfaceGroup,
   {b0062a71-68d9-49b1-a324-4b32a076538d}, !- Handle
@@ -67900,20 +67586,6 @@ OS:Generator:Photovoltaic,
   {162ebd0e-d07b-41da-93fa-c99ded6bf2eb}, !- Surface Name
   {3d49ff99-a60e-4a16-8ee7-7c80e9591aa4}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {cf74d888-117d-429d-845c-35c745498ef8}, !- Handle
-  Electric Load Center Distribution 25,   !- Name
-  {9cafe9fd-77cd-4caa-acdc-c32fd08cacb4}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {9cafe9fd-77cd-4caa-acdc-c32fd08cacb4}, !- Handle
-  {4a6b9239-57d1-48d6-a3fe-27b2e4810df1}; !- Name
-
 OS:ShadingSurfaceGroup,
   {54b40239-31e0-4901-8040-ddc5f715c7b9}, !- Handle
   Shading Surface Group 25,               !- Name
@@ -67949,20 +67621,6 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 25,              !- Name
   {a64330f9-600e-453d-94b4-75d6d8cfc362}, !- Surface Name
   {edbbe859-6ff6-4ef2-9faa-b20660a63c12}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {549704f6-b915-4ef0-b8e8-93f7466aa53a}, !- Handle
-  Electric Load Center Distribution 26,   !- Name
-  {13ebc0e8-a874-44eb-96c7-4df3cde95fe7}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {13ebc0e8-a874-44eb-96c7-4df3cde95fe7}, !- Handle
-  {3d8a6ae1-c2a4-470a-b572-5271ba6812de}; !- Name
 
 OS:ShadingSurfaceGroup,
   {d1d7eaa7-b594-4e5b-b23a-a452fdccb747}, !- Handle
@@ -68000,20 +67658,6 @@ OS:Generator:Photovoltaic,
   {34ce02fa-b203-44e0-8368-60ecd47a59d0}, !- Surface Name
   {54d55bf3-36d1-4311-9e84-c82e1b4c23b4}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {37003697-cef2-46cc-a039-478402aab5ea}, !- Handle
-  Electric Load Center Distribution 27,   !- Name
-  {1a560fc9-0d59-4340-8b8e-2cd5c3fc406d}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {1a560fc9-0d59-4340-8b8e-2cd5c3fc406d}, !- Handle
-  {3c88971c-6faf-41c3-8e48-1d20bc2318bd}; !- Name
-
 OS:ShadingSurfaceGroup,
   {5f7b804f-39b8-434c-ad3a-d5a8b852178e}, !- Handle
   Shading Surface Group 27,               !- Name
@@ -68049,20 +67693,6 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 27,              !- Name
   {afd3efbd-fcb1-44f8-800b-bad967323b11}, !- Surface Name
   {04d64ef6-a786-4b3c-9c99-ccfa853c2654}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {8888c08d-cdb2-49f2-854d-c01ce9ec57d9}, !- Handle
-  Electric Load Center Distribution 28,   !- Name
-  {8a1684ee-14c4-4c28-a857-c4b8cd72452d}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {8a1684ee-14c4-4c28-a857-c4b8cd72452d}, !- Handle
-  {14373770-4ef8-44db-933a-f605fd1b638e}; !- Name
 
 OS:ShadingSurfaceGroup,
   {88403a9e-2850-4050-9a56-41bedbeecae6}, !- Handle
@@ -68100,20 +67730,6 @@ OS:Generator:Photovoltaic,
   {eb0e7c83-e321-4954-a039-d510fe223319}, !- Surface Name
   {00d58284-3051-4041-bac2-e15fe3cb7c9d}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {4c3b8480-5f07-4ad7-8f76-83d2ae0f0c96}, !- Handle
-  Electric Load Center Distribution 29,   !- Name
-  {4bdb33b9-9b92-4b89-b65a-fdd46753e533}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {4bdb33b9-9b92-4b89-b65a-fdd46753e533}, !- Handle
-  {9d1c0ad7-155e-4685-8e4d-318db2e6b6d4}; !- Name
-
 OS:ShadingSurfaceGroup,
   {f14c78ed-73c8-432c-aca4-29a17f67ba86}, !- Handle
   Shading Surface Group 29,               !- Name
@@ -68150,20 +67766,6 @@ OS:Generator:Photovoltaic,
   {6b257705-fd83-4bcb-bd66-8f3cc37a7b4e}, !- Surface Name
   {f1e2b984-a169-425b-8fda-56a4c84393b0}; !- Module Performance Name
 
-OS:ElectricLoadCenter:Distribution,
-  {d692f164-b5fc-401f-afd3-7952c0f4826b}, !- Handle
-  Electric Load Center Distribution 30,   !- Name
-  {32e73f06-0b6f-422d-a727-a19d7c6295f5}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {32e73f06-0b6f-422d-a727-a19d7c6295f5}, !- Handle
-  {c32b1826-fbcb-4672-ac2d-dc0599257ffb}; !- Name
-
 OS:ShadingSurfaceGroup,
   {a2db11bb-859a-4cee-bd5d-a4b806589eac}, !- Handle
   Shading Surface Group 30,               !- Name
@@ -68199,18 +67801,3 @@ OS:Generator:Photovoltaic,
   Generator Photovoltaic 30,              !- Name
   {b1dc129c-a35f-4eaa-801c-22ad037523dd}, !- Surface Name
   {6295e547-68c5-4ed5-9269-b417eac5cb06}; !- Module Performance Name
-
-OS:ElectricLoadCenter:Distribution,
-  {813274f0-fa20-4389-b144-6d159d7ed429}, !- Handle
-  Electric Load Center Distribution 31,   !- Name
-  {a3b74bea-8045-4715-8e4c-4ad804773471}, !- Generator List Name
-  ,                                       !- Generator Operation Scheme Type
-  ,                                       !- Demand Limit Scheme Purchased Electric Demand Limit {W}
-  ,                                       !- Track Schedule Name Scheme Schedule Name
-  ,                                       !- Track Meter Scheme Meter Name
-  ;                                       !- Electrical Buss Type
-
-OS:ModelObjectList,
-  {a3b74bea-8045-4715-8e4c-4ad804773471}, !- Handle
-  {c60f40ec-ad4a-4fa6-a075-acc001be71bd}; !- Name
-
