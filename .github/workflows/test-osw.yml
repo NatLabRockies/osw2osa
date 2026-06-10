@@ -44,24 +44,24 @@ jobs:
           echo "==== $f ===="
           ruby -rjson -e '
             j = JSON.parse(File.read(ARGV[0]))
-            status = j["completed_status"] || "UNKNOWN"
+            status = j["completed_status"] || "Fail"
             echo_name = File.dirname(ARGV[0]).split("/").last
             puts "workflow=#{echo_name} status=#{status}"
           ' "$f"
-        end
+        done
 
         echo
         echo "Failing workflows:"
         find run/workflows -name out.osw -print | sort | while read -r f; do
           ruby -rjson -e '
             j = JSON.parse(File.read(ARGV[0]))
-            status = j["completed_status"] || "UNKNOWN"
+            status = j["completed_status"] || "Fail"
             if status != "Success"
               workflow = File.dirname(ARGV[0]).split("/").last
               puts "FAILED: #{workflow} (#{ARGV[0]}) => #{status}"
             end
           ' "$f"
-        end
+        done
 
     - name: upload workflow outputs
       if: always()
